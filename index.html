@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth" prefix="og: https://ogp.me/ns#" itemscope itemtype="https://schema.org/WebApplication">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#1 AI Text Humanizer Gratis - 0% ZeroGPT</title>
+	<link rel="canonical" href="https://" />
+	<meta name="user-signed-in" content="false">
+	<meta name="description" content="Artikel Humanis tanpa prompting dengan #1 AI Text Humanizer">
+	<meta name="keywords" content="humanize ai text free, Humanize AI Text Free, humanize ai text free indonesia, humanize ai text free 1000 words, Humanize AI Text, Free AI Text Humanizer, Humanize AI Text Effortlessly, Free AI Text Humanizer Tool No Sign-up, Humanize AI Text & Content, Humanize AI text free, Humanize AI Indonesia, Humanize AI Indonesia free, AI detector, Humanizer AI, Humanizer Pro, Humanize AI free unlimited, WriteHuman AI, Humanize AI Text free Indonesia, Humanize AI Indonesia, Humanize AI free unlimited, AI detector, Humanizer, Humanize Pro, WriteHuman AI, Humanize AI document">
+	<meta name="robots" content="NOODP,INDEX,FOLLOW,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+	<meta property="og:type" content="website">
+  <meta property="og:url" content="https://300dpi.pages.dev/">
+  <meta property="og:title" content="AI Text Humanizer" />
+  <meta property="og:image" content="ai-text-humanizer-og.png">
+  <meta property="og:description" content="Artikel Humanis tanpa prompting dengan #1 AI Text Humanizer">
+  <meta property="og:site_name" content="AI Text Humanizer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Text Humanizer">
+  <meta name="twitter:description" content="Artikel Humanis tanpa prompting dengan #1 AI Text Humanizer">
+  <meta name="twitter:image:src" content="ai-text-humanizer-og.png">
+  <meta name="application-name" content="ImageResize Pro">
+	<meta name="apple-mobile-web-app-title" content="AIFAQGenerator">
+	<link rel="icon" type="image/png" sizes="16x16" href="ai-text-humanizer-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ai-text-humanizer-32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="ai-text-humanizer-48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="ai-text-humanizer-64.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="ai-text-humanizer-512.png">
+	<link rel="apple-touch-icon" href="ai-text-humanizer-512.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<!-- SweetAlert CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<!-- SweetAlert JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script>
+        // Fungsi untuk mendapatkan waktu saat ini dalam format yang diinginkan
+        function getCurrentTime() {
+            const now = new Date();
+            return now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+        }
+
+        // Fungsi untuk menyuntikkan meta tag
+        function injectMetaTag() {
+            const meta = document.createElement('meta');
+            meta.name = 'last-updated';
+            meta.content = getCurrentTime();
+            document.head.appendChild(meta);
+        }
+
+        // Menyuntikkan meta tag saat halaman dimuat
+        window.onload = injectMetaTag;
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#5D5CDE",
+                        purple: {
+                            600: '#5D5CDE'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .chat-container {
+            height: calc(100vh - 270px);
+            min-height: 500px;
+        }
+		.chat-message {
+            background-color: rgba(255, 255, 0, 0.2);
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+        
+        .chat-message pre {
+            background-color: rgba(30, 30, 30, 0.9);
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+        
+        .chat-message code {
+            font-family: monospace;
+            background-color: rgba(30, 30, 30, 0.6);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .chat-message blockquote {
+            border-left: 4px solid #5D5CDE;
+            padding-left: 10px;
+            margin: 10px 0;
+            color: #00FF00;
+        }
+		.chat-message code {
+            border-left: 4px solid #5D5CDE;
+            padding-left: 10px;
+            margin: 10px 0;
+            color: #00FF00;
+        }
+        
+        .chat-message ul, .chat-message ol {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        
+        .chat-message ul {
+            list-style-type: disc;
+        }
+        
+        .chat-message ol {
+            list-style-type: decimal;
+        }
+        
+        .chat-message h1, .chat-message h2, .chat-message h3, 
+        .chat-message h4, .chat-message h5, .chat-message h6 {
+            margin: 20px 0 10px 0;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+        
+        .chat-message h1 { font-size: 2rem; }
+        .chat-message h2 { font-size: 1.5rem; }
+        .chat-message h3 { font-size: 1.25rem; }
+        
+        .chat-message p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        
+        .chat-message a {
+            color: #5D5CDE;
+            text-decoration: underline;
+        }
+        
+        .chat-message img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+		.swal2-html {
+            text-align: left; /* Mengatur teks menjadi normal alignment */
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #5D5CDE 0%, #8A4FFF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .typing-animation:after {
+            content: '';
+            animation: typing 1.5s infinite;
+        }
+        
+        @keyframes typing {
+            0% { content: ""; }
+            25% { content: "."; }
+            50% { content: ".."; }
+            75% { content: "..."; }
+            100% { content: ""; }
+        }
+        
+        .slide-in {
+            animation: slideIn 0.3s ease-out forwards;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(93, 92, 222, 0.3);
+        }
+    </style>
+	 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Apa itu AI Text Humanizer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI Text Humanizer adalah alat yang meningkatkan kualitas teks yang dihasilkan oleh kecerdasan buatan agar lebih alami dan mudah dipahami."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bagaimana cara kerja AI Text Humanizer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI Text Humanizer menggunakan teknologi pemrosesan bahasa alami untuk menganalisis dan memperbaiki struktur kalimat serta pilihan kata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apa manfaat menggunakan AI Text Humanizer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Manfaatnya termasuk meningkatkan keterbacaan, memperbaiki tata bahasa, dan membuat teks lebih menarik bagi pembaca."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah AI Text Humanizer gratis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Banyak AI Text Humanizer yang menawarkan versi gratis dengan fitur terbatas, serta versi berbayar dengan fitur tambahan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Siapa yang bisa menggunakan AI Text Humanizer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Siapa saja yang ingin meningkatkan kualitas tulisan mereka, termasuk penulis, pemasar, dan pembuat konten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah AI Text Humanizer dapat digunakan untuk semua jenis teks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ya, AI Text Humanizer dapat digunakan untuk berbagai jenis teks, termasuk artikel, esai, dan konten pemasaran."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bagaimana cara mengakses AI Text Humanizer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anda dapat mengakses AI Text Humanizer melalui situs web resmi atau platform yang menyediakan alat tersebut."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah ada batasan dalam menggunakan AI Text Humanizer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beberapa alat mungkin memiliki batasan pada jumlah kata, fitur yang tersedia, atau memerlukan pendaftaran untuk akses penuh."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah hasil dari AI Text Humanizer selalu sempurna?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tidak selalu. Hasil dapat bervariasi tergantung pada kompleksitas teks dan algoritma yang digunakan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dapatkah AI Text Humanizer digunakan untuk SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ya, dengan meningkatkan kualitas teks, AI Text Humanizer dapat membantu dalam optimasi SEO dan meningkatkan peringkat pencarian."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Manfaat dan Pentingnya FAQ dalam Artikel dengan AI Text Humanizer",
+  "author": {
+    "@type": "Person",
+    "name": "AI Text Humanizer"
+  },
+  "datePublished": "2025-03-17",
+  "image": "URL_GAMBAR_ARTIKEL",
+  "articleBody": "AI Text Humanizer adalah alat yang dirancang untuk meningkatkan kualitas teks yang dihasilkan oleh kecerdasan buatan agar lebih alami dan mudah dipahami oleh pembaca. Dengan memanfaatkan teknologi pemrosesan bahasa alami (NLP), AI Text Humanizer menganalisis struktur kalimat, pilihan kata, dan gaya penulisan dari teks yang diberikan. Proses ini melibatkan pengubahan frasa yang terdengar kaku menjadi lebih mengalir, serta menambahkan variasi dalam kalimat untuk menciptakan nuansa yang lebih manusiawi. Selain itu, alat ini juga melakukan penyempurnaan tata bahasa, memastikan makna asli teks tetap terjaga. Hasilnya adalah teks yang tidak hanya lebih menarik, tetapi juga lebih mudah diakses, sehingga meningkatkan pengalaman membaca. AI Text Humanizer sangat berguna bagi penulis, pemasar, dan pembuat konten yang ingin menghasilkan tulisan berkualitas tinggi dengan bantuan teknologi, sehingga mendapatkan hasil yang lebih efektif dan komunikatif. Cara Kerja AI Text Humanizer AI Text Humanizer bekerja dengan cara mengubah teks yang dihasilkan oleh kecerdasan buatan agar terdengar lebih alami dan manusiawi. Berikut adalah langkah-langkah umum tentang cara kerjanya: ⚡️Pengguna memasukkan teks yang dihasilkan oleh AI, biasanya dalam bentuk paragraf atau beberapa kalimat ⚡️Sistem menganalisis struktur kalimat, pilihan kata, dan gaya penulisan dari teks yang diberikan. ⚡️ Teks yang telah dimodifikasi diperiksa untuk memastikan bahwa makna tetap utuh dan gaya penulisan lebih mendekati cara bicara manusia.☑️ Setelah proses penyesuaian, teks yang telah diperhalus disajikan kembali kepada pengguna, siap untuk digunakan atau dipublikasikan. Dengan cara ini, AI Text Humanizer membantu membuat teks yang dihasilkan oleh mesin menjadi lebih mudah dibaca dan lebih menarik bagi pembaca. Cara Menggunakan AI Text Humanizer 1️⃣ Salin paragraf demi paragraf dari artikel yang dihasilkan AI Anda, hasilnya akan lebih baik daripada menyalin seluruh artikel 2️⃣ Tempelkan ke dalam kolom paragraf 3️⃣ Bahasa Artikel: Anda dapat menggunakan bahasa asli artikel Anda atau mengubahnya ke bahasa lain
+"
+"url": "URL_ARTIKEL",
+"keywords": "humanize ai text free, Humanize AI Text Free, humanize ai text free indonesia, humanize ai text free 1000 words, Humanize AI Text, Free AI Text Humanizer, Humanize AI Text Effortlessly, Free AI Text Humanizer Tool No Sign-up, Humanize AI Text & Content, Humanize AI text free, Humanize AI Indonesia, Humanize AI Indonesia free, AI detector, Humanizer AI, Humanizer Pro, Humanize AI free unlimited, WriteHuman AI, Humanize AI Text free Indonesia, Humanize AI Indonesia, Humanize AI free unlimited, AI detector, Humanizer, Humanize Pro, WriteHuman AI, Humanize AI document"
+}
+</script>	
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-purple-600 text-white py-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="ai-text-humanizer-48.png" width="40" title="AI Text Humanizer" alt="AI Text Humanizer">
+                <span class="text-xl font-bold">AI Text Humanizer</span>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="/" class="hover:text-gray-200 transition">Home</a>
+                <a href="#tentang" class="hover:text-gray-200 transition">Tentang</a>
+                <a href="#tutorial" class="hover:text-gray-200 transition">Tutorial</a>
+                <a href="#carakerja" class="hover:text-gray-200 transition">Cara Kerja</a>
+				 <a href="#contact" class="hover:text-gray-200 transition">Kontak Developer</a>
+            </div>
+            
+            <div class="flex items-center space-x-3">
+                <a href="#" id="donateBtn" class="px-4 py-2 rounded-lg bg-yellow-300 text-gray-800 font-medium hover:bg-yellow-600 transition duration-200">Donasi</a>
+                <button class="block md:hidden" id="mobileMenuBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden container mx-auto px-4 mt-3 pb-3 space-y-3">
+            <a href="#" class="block hover:bg-purple-700 rounded p-2">Home</a>
+            <a href="#" class="block hover:bg-purple-700 rounded p-2">Tools</a>
+            <a href="#" class="block hover:bg-purple-700 rounded p-2">Articles</a>
+            <a href="#" class="block hover:bg-purple-700 rounded p-2">Pricing</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-6">
+        <div class="flex flex-col lg:flex-row gap-6">
+            <!-- Main Content Area -->
+            <div class="lg:w-3/4">
+                
+                
+               <!-- Input Form -->
+<div class="bg-white rounded-xl shadow-md p-6 mb-6">
+<strong>Bypass All AI Detector Get 0% ZeroGPT Without Prompt With #1 AI Text Humanizer</strong>
+    <div class="flex flex-col md:flex-row gap-4 mb-4">
+	
+        <div class="flex-grow">
+		
+		<br/><center><img src="0-gpt.png" alt="AI Text Humanizer"></center>
+		
+            <label for="topicInput" class="block text-sm font-medium text-gray-700 mb-1">Article Paragraph</label>
+            <textarea id="topicInput" rows="1" class="w-full resize-none px-4 py-3 text-base border border-purple-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-800 placeholder-gray-400" placeholder="paste paragraf artikel disini"></textarea>
+        </div>
+    </div>
+
+
+
+    <div class="flex flex-col md:flex-row gap-4 mb-4">
+        <div class="md:w-48">
+            <label for="styleSelect" class="block text-sm font-medium text-gray-700 mb-1">Pilih Bahasa</label>
+            <select id="styleSelect" class="w-full px-4 py-3 text-base border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600 bg-white">
+                                <option value="Bahasa Indonesia">Indonesia</option>
+                <option value="English">English</option>
+                <option value="Bahasa Melayu">Melayu</option>
+                <option value="Français">Français</option>
+                <option value="Español">Español</option>
+                <option value="Deutsch">Deutsch</option>
+                <option value="中文">中文 (Chinese)</option>
+                <option value="日本語">日本語 (Japanese)</option>
+                <option value="한국어">한국어 (Korean)</option>
+            </select>
+        </div>
+        
+        <div class="flex items-end">
+            <button id="generateBtn" class="w-full md:w-auto px-6 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700 transition flex items-center justify-center">
+                <span>Humanize!</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+                <!-- Chat/Article Container -->
+               <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+    <div class="border-b border-gray-200 px-6 py-4 bg-gray-50 flex justify-between items-center">
+        <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+            <span class="font-medium">Hasil akan ditampilkan dibawah</span>
+        </div>
+        <div class="flex space-x-2">
+            <button id="copyBtn" class="text-gray-500 hover:text-purple-600 transition p-1" title="Copy to Clipboard">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+            </button>
+            <button id="clearBtn" class="text-gray-500 hover:text-purple-600 transition p-1" title="Clear Chat">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+                <!-- Chat/Article Container -->
+                <div class="bg-yellow-200 rounded-xl shadow-md overflow-hidden mb-8">
+                    <div class="border-b border-gray-200 px-6 py-4 bg-gray-50 flex justify-between items-center">
+                        <div class="flex items-center">
+                           
+                           
+                        </div>
+                        <div class="flex space-x-2">
+                           
+                        </div>
+                    </div>
+                    
+                    <div id="chatContainer" class="chat-container p-6 overflow-y-auto">
+                        <div id="welcomeMessage" class="p-4 bg-yellow-20 rounded-lg mb-4">
+							
+                        </div>
+                        
+                        <div id="chatMessages"></div>
+                    </div>
+                </div>
+                
+                <!-- Advertisement Banner -->
+				<div id="tentang"></div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+                    <div class="p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                        <div class="flex flex-col md:flex-row items-center justify-between">
+                            <div class="mb-4 md:mb-0 text-center md:text-left">
+                                <h3 class="text-xl font-bold mb-2">Tentang AI Text Humanizer</h3>
+                                <p class="text-purple-100"><strong>AI Text Humanizer</strong> adalah alat yang dirancang oleh Hendy Black untuk meningkatkan kualitas teks yang dihasilkan oleh kecerdasan buatan agar lebih alami dan mudah dipahami oleh pembaca. Dengan memanfaatkan teknologi pemrosesan bahasa alami (NLP), AI Text Humanizer menganalisis struktur kalimat, pilihan kata, dan gaya penulisan dari teks yang diberikan.</p>
+								<br/><p class="text-purple-100">Proses ini melibatkan pengubahan frasa yang terdengar kaku menjadi lebih mengalir, serta menambahkan variasi dalam kalimat untuk menciptakan nuansa yang lebih manusiawi. Selain itu, alat ini juga melakukan penyempurnaan tata bahasa, memastikan makna asli teks tetap terjaga. Hasilnya adalah teks yang tidak hanya lebih menarik, tetapi juga lebih mudah diakses, sehingga meningkatkan pengalaman membaca.</p>
+								<br/><p class="text-purple-100">AI Text Humanizer sangat berguna bagi penulis, pemasar, dan pembuat konten yang ingin menghasilkan tulisan berkualitas tinggi dengan bantuan teknologi, sehingga mendapatkan hasil yang lebih efektif dan komunikatif.</p>
+								<br/><p class="text-purple-100">Selamat menggunakan AI Text Humanizer dan jangan lupa beritahu teman-teman blogger yang lain.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+				<div id="carakerja"></div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+                    <div class="p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                        <div class="flex flex-col md:flex-row items-center justify-between">
+                            <div class="mb-4 md:mb-0 text-center md:text-left">
+                                <h3 class="text-xl font-bold mb-2">Cara Kerja AI Text Humanizer </h3>
+                                <p class="text-purple-100">AI Text Humanizer bekerja dengan cara mengubah teks yang dihasilkan oleh kecerdasan buatan agar terdengar lebih alami dan manusiawi. Berikut adalah langkah-langkah umum tentang cara kerjanya:</p>
+								<br/><p class="text-purple-100">⚡️Pengguna memasukkan teks yang dihasilkan oleh AI, biasanya dalam bentuk paragraf atau beberapa kalimat</p>
+								<br/><p class="text-purple-100">⚡️Sistem menganalisis struktur kalimat, pilihan kata, dan gaya penulisan dari teks yang diberikan.</p>
+								<br/><p class="text-purple-100">⚡️ Teks yang telah dimodifikasi diperiksa untuk memastikan bahwa makna tetap utuh dan gaya penulisan lebih mendekati cara bicara manusia.</p>
+								<br/><p class="text-purple-100">☑️ Setelah proses penyesuaian, teks yang telah diperhalus disajikan kembali kepada pengguna, siap untuk digunakan atau dipublikasikan. Dengan cara ini, AI Text Humanizer membantu membuat teks yang dihasilkan oleh mesin menjadi lebih mudah dibaca dan lebih menarik bagi pembaca.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+			<div id="tutorial"></div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+                    <div class="p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                        <div class="flex flex-col md:flex-row items-center justify-between">
+                            <div class="mb-4 md:mb-0 text-center md:text-left">
+                                <h3 class="text-xl font-bold mb-2">Cara Menggunakan AI Text Humanizer</h3>
+<p class="text-purple-100">1️⃣ Salin paragraf demi paragraf dari artikel yang dihasilkan AI Anda, hasilnya akan lebih baik daripada menyalin seluruh artikel</p><hr>
+<p class="text-purple-100">2️⃣ Tempelkan ke dalam kolom paragraf</p><hr>
+<p class="text-purple-100">3️⃣ Bahasa Artikel: Anda dapat menggunakan bahasa asli artikel Anda atau mengubahnya ke bahasa lain</p><hr>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+				<div id="contact"></div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+                    <div class="p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                        <div class="flex flex-col md:flex-row items-center justify-between">
+                            <div class="mb-4 md:mb-0 text-center md:text-left">
+                                <h3 class="text-xl font-bold mb-2">Kontak</h3>
+                                <p class="text-purple-100"><i class="fas fa-envelope"></i> agindaa[at]gmail.com</p>
+								<p class="text-purple-100"><i class="fab fa-whatsapp"></i> 0819-5364-7774</p>
+								<p class="text-purple-100"><i class="fab fa-telegram-plane"></i> 0858-800-24-800</p>
+								<p class="text-purple-100"><i class="fab fa-facebook"></i> @ayahanike</p>
+								<p class="text-purple-100"><i class="fab fa-instagram"></i> @superhendy</p>
+								<p class="text-purple-100"><i class="fas fa-link"></i> dunia.it.com</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+					
+                </div>
+            <div id="backlink"></div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-6">
+                    <div class="p-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
+                        <div class="flex flex-col md:flex-row items-center justify-between">
+                            <div class="mb-4 md:mb-0 text-center md:text-left">
+                                <h3 class="text-xl font-bold mb-2">Backlink Premium Murah</h3>
+                                <p class="text-purple-100">Pasang link blog/website/lapak Anda disini dan dapatkan backlink homepage dofollow dari website ini dengan | DA 90 | PA 62 |SS 0% | Harga Rp 150.000 sekali bayar & backlink akif selamanya</p>
+                            </div>
+                            <a href="#" class="px-10 py-1 bg-yellow-300 text-gray-800 font-semibold rounded-lg hover:bg-yellow-600 transition shadow-md">
+                                Pesan Sekarang
+                            </a>
+                        </div>
+                    </div>
+					
+                </div>
+            </div>
+			
+            
+            <!-- Sidebar -->
+            <div class="lg:w-1/4">
+                <!-- Premium Ad -->
+				<div class="bg-gradient-to-br from-indigo-600 to-indigo-400 rounded-xl shadow-md p-5 text-white">
+                    <h1 class="text-lg font-semibold mb-3">#1 AI Text Humanizer</h1>
+                    <center><a href="/"><img src="ai-text-humanizer-128.png" width="100%" alt="AI Text Humanizer" title="AI Text Humanizer"></a></center>
+                </div>
+            <br/>
+        
+                <div class="bg-gradient-to-br from-purple-600 to-indigo-600 rounded-xl shadow-md p-5 text-white">
+                    <h3 class="text-lg font-semibold mb-3">Partner</h3>
+                    
+                    <ul class="space-y-2 mb-5">
+                        <li class="flex items-start">
+                            💎
+							
+                            <a href="https://mikrotik.co.id/" rel="sponsored" target="_blank" class="text-sm"> Mikrotik Indonesia</a>
+                        </li>
+                        <li class="flex items-start">
+                           💎
+                             <a href="https://gamezz.pages.dev" rel="sponsored" target="_blank" class="text-sm">Zumping Zombie</a>
+                        </li>
+                        <li class="flex items-start">
+                            💎
+							
+                            <a href="https://www.tokopedia.com/ugreenofficialstore" rel="sponsored" target="_blank" class="text-sm"> UGREEN Official Stores</a>
+                        </li>
+                        <li class="flex items-start">
+                            💎
+							
+                            <a href="https://www.naga.biz.id" rel="sponsored" target="_blank" class="text-sm"> Domain Murah</a>
+                        </li>
+                        <li class="flex items-start">
+                            💎
+							
+                            <a href="https://lynk.id/jasaalkandar0302" rel="sponsored" target="_blank" class="text-sm"> Jasa Digital Store</a>
+                        </li>
+						<li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+						<li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+						<li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+						 <li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+						<li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+						<li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+						<li class="flex items-start">
+                            🔰
+                            <span class="text-sm">Link Blog Anda Disini</span>
+                        </li>
+                    </ul>
+                    <a href="#backlink" class="block w-full py-2 bg-yellow-300 text-gray-800 font-large rounded-lg hover:bg-yellow-600 transition text-center">
+                     Pasang Link Anda
+                    </a>
+                </div>
+            </div>
+        </div>
+             
+                
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-purple-600 text-white py-10 mt-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-1">
+                    <div class="flex items-center space-x-2 mb-4">
+                       <img src="ai-text-humanizer-128.png" width="40" title="AI Text Humanizer" alt="AI Text Humanizer">
+                        <span class="text-xl font-bold">AI Text Humanizer</span>
+                    </div>
+                    <p class="text-purple-200 mb-6">Artikel Humanis tanpa prompting dengan #1 AI Text Humanizer</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/ayahanike" class="text-white hover:text-purple-200 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.twitter.com/manghendi" class="text-white hover:text-purple-200 transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/superhendy" class="text-white hover:text-purple-200 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="text-white hover:text-purple-200 transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#tentang" class="text-purple-200 hover:text-white transition">Tentang</a></li>
+						<li><a href="/" class="text-purple-200 hover:text-white transition" onclick="showTermsOfService()">Terms of Service</a></li>
+						<a href="/" class="text-purple-200 hover:text-white transition" onclick="showPrivacyPolicy()">Privacy Policy</a>
+                        <li><a href="#tutorial" class="text-purple-200 hover:text-white transition">Tutoral</a></li>
+                        <li><a href="#carakerja" class="text-purple-200 hover:text-white transition">Cara Kerja</a></li>
+                        <li><a href="#contact" class="text-purple-200 hover:text-white transition">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Tools</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://search.google.com/test/rich-results" rel="nofollow" target="_blank" class="text-purple-200 hover:text-white transition">FAQ Validator</a></li>
+                        <li><a href="https://www.zerogpt.com/"  rel="nofollow" target="_blank" class="text-purple-200 hover:text-white transition">AI content detector</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-purple-500 mt-10 pt-8 text-center text-purple-200">
+                <p>&copy; 2024 Asblog AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   
+
+<script>
+    document.getElementById('donateBtn').addEventListener('click', function(event) {
+        event.preventDefault(); // Mencegah aksi default link
+        Swal.fire({
+            title: 'Donasi via Gopay ke 081953647774',
+            html: '<center><img src="gopay.jpg" alt="AI Text Humanizer" style="width: 50%; height: auto; margin-top: 10px;"></center>' +
+                  '<p style="margin-top: 10px;">Paypal donate: <strong>agindaa@gmail.com</strong></p>',
+            confirmButtonText: 'OK'
+        });
+    });
+</script>
+<script>
+    // Cek apakah pengguna sudah memberikan consent
+    if (!localStorage.getItem('cookieConsent')) {
+        Swal.fire({
+            title: 'Cookie Consent',
+            html: 'Kami menggunakan Google Cookie Policy untuk meningkatkan pengalaman Anda di situs ini. Apakah Anda setuju? <br><br>' +
+                  'Lihat <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" style="color: blue;">Kebijakan Privasi</a>',
+            icon: 'info',
+            showCancelButton: true,
+            confirmButtonText: 'Setuju',
+            cancelButtonText: 'Tidak Setuju'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Simpan consent pengguna
+                localStorage.setItem('cookieConsent', 'true');
+                Swal.fire('Terima kasih!', 'Anda telah setuju untuk menggunakan cookie.', 'success');
+            } else {
+                Swal.fire('Dibatalkan', 'Anda memilih untuk tidak setuju.', 'error');
+            }
+        });
+    }
+</script>
+
+
+<script>
+    function showTermsOfService() {
+        Swal.fire({
+            title: 'Ketentuan Layanan',
+            html: `
+                <h5><b>1. Penerimaan Ketentuan</b></h5>
+                <p>Dengan menggunakan layanan kami, Anda setuju untuk mematuhi ketentuan yang berlaku.</p>
+                
+                <h5><b>2. Penggunaan Layanan</b></h5>
+                <p>Layanan ini hanya untuk penggunaan pribadi dan non-komersial. Anda tidak diperbolehkan untuk menggunakan layanan ini untuk tujuan yang melanggar hukum.</p>
+                
+                <h5><b>3. Tanggung Jawab Pengguna</b></h5>
+                <p>Anda bertanggung jawab atas semua konten yang Anda hasilkan menggunakan layanan kami dan menjamin bahwa konten tersebut tidak melanggar hak pihak ketiga.</p>
+                
+                <h5><b>4. Pembatasan Tanggung Jawab</b></h5>
+                <p>Kami tidak bertanggung jawab atas kerugian atau kerusakan yang mungkin timbul dari penggunaan layanan ini.</p>
+                
+                <h5><b>5. Perubahan Ketentuan</b></h5>
+                <p>Kami berhak untuk mengubah ketentuan ini kapan saja. Perubahan akan diberitahukan melalui situs web kami.</p>
+                
+                <h5><b>6. Kontak<b></h5>
+                <p>Jika Anda memiliki pertanyaan tentang ketentuan ini, silakan hubungi kami melalui email di agindaa@gmail.com.</p>
+            `,
+            icon: 'info',
+            confirmButtonText: 'Tutup'
+        });
+    }
+</script>
+<script>
+    function showPrivacyPolicy() {
+        Swal.fire({
+            title: 'Kebijakan Privasi',
+            html: `
+                <h5>1. Pengumpulan Informasi</h5>
+                <p>Kami mengumpulkan informasi yang Anda berikan secara langsung saat menggunakan layanan kami, seperti nama dan alamat email.</p>
+                
+                <h5>2. Penggunaan Informasi</h5>
+                <p>Informasi yang kami kumpulkan digunakan untuk meningkatkan layanan, menghubungi Anda, dan memberikan pembaruan terkait layanan kami.</p>
+                
+                <h5>3. Perlindungan Data</h5>
+                <p>Kami berkomitmen untuk melindungi informasi pribadi Anda. Kami menggunakan berbagai langkah keamanan untuk menjaga data Anda tetap aman.</p>
+                
+                <h5>4. Berbagi Informasi</h5>
+                <p>Kami tidak akan menjual atau membagikan informasi pribadi Anda kepada pihak ketiga tanpa izin Anda, kecuali jika diharuskan oleh hukum.</p>
+                
+                <h5>5. Perubahan Kebijakan</h5>
+                <p>Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diberitahukan melalui situs web kami.</p>
+                
+                <h5>6. Kontak</h5>
+                <p>Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami melalui email di support@aitexthumanizer.com.</p>
+            `,
+            icon: 'info',
+            confirmButtonText: 'Tutup'
+        });
+    }
+</script>
+<script src="script.js"></script>
+</body>
+</html>
