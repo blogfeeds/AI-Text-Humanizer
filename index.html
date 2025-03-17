@@ -36,16 +36,34 @@
 <!-- SweetAlert JS -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-        function detectDevTools() {
-            const devToolsOpen = window.devtools ? window.devtools.open : false;
+    setInterval(function() {
+      if (typeof console.firebug !== 'undefined') {
+        window.location.href = 'https://www.google.com';
+      }
+    }, 1000);
 
-            if (devToolsOpen) {
-                window.location.href = "https://www.google.com";
-            }
-        }
+    let originalWidth = window.outerWidth;
+    let originalHeight = window.outerHeight;
 
-        setInterval(detectDevTools, 1000);
-    </script>
+    setInterval(function() {
+      if (window.outerWidth !== originalWidth || window.outerHeight !== originalHeight) {
+        window.location.href = 'https://www.google.com';
+      }
+    }, 1000);
+
+    function detectDevTool(allow) {
+      if(isNaN(allow)) allow = 100;
+      var start = +new Date();
+      debugger;
+      var end = +new Date();
+      if(end - start > allow){
+        window.location.href = 'https://www.google.com';
+      }
+    }
+    setInterval(function(){
+      detectDevTool();
+    });
+  </script>
 	<script>
         // Fungsi untuk mendapatkan waktu saat ini dalam format yang diinginkan
         function getCurrentTime() {
