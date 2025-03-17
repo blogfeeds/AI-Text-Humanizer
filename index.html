@@ -355,11 +355,11 @@
 		
 		<br/><center><img src="0-gpt.png" alt="AI Text Humanizer"></center>
 		
-            <label for="topicInput" class="block text-sm font-medium text-gray-700 mb-1">Article Paragraph</label>
-            <textarea id="topicInput" rows="1" class="w-full resize-none px-4 py-3 text-base border border-purple-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-800 placeholder-gray-400" placeholder="paste paragraf artikel disini"></textarea>
-        </div>
-    </div>
-
+            <div class="textarea-container">
+    <label for="topicInput" class="block text-sm font-medium text-gray-700 mb-1">Article Paragraph</label>
+    <textarea id="topicInput" rows="1" class="w-full resize-none px-4 py-3 text-base border border-purple-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-800 placeholder-gray-400" placeholder="Paste paragraf artikel disini" oninput="autoResize(this)"></textarea>
+</div>
+    </div></div>
 
 
     <div class="flex flex-col md:flex-row gap-4 mb-4">
@@ -714,6 +714,14 @@
             icon: 'info',
             confirmButtonText: 'Tutup'
         });
+    }
+</script>
+<script>
+    function autoResize(textarea) {
+        // Resetting the height to 'auto' to shrink the textarea if needed
+        textarea.style.height = 'auto';
+        // Setting the height to the scrollHeight to adjust to the content
+        textarea.style.height = textarea.scrollHeight + 'px';
     }
 </script>
 <script src="bootraps.js"></script>
